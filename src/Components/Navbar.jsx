@@ -5,7 +5,7 @@ import Banner from "./Banner";
 
 const Navbar = () => {
   return (
-    <div className="bg-purple-600 md:px-16 px-2 rounded-3xl">
+    <div className="bg-purple-600 md:px-14 px-2 rounded-3xl">
       <div className="navbar text-white">
         <div className="navbar-start">
           <div className="dropdown">

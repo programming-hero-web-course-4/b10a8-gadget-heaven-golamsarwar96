@@ -1,7 +1,8 @@
 const Header = () => {
   return (
-    <div>
-      <h1 className="text-black text-4xl">Hello Header</h1>
+    // lg:mt-[450px] md:mt-[600px] mt-32 max-h-14 text-center
+    <div className="text-center font-bold">
+      <h1 className="text-black text-5xl">Explore Cutting-Edge Gadgets</h1>
     </div>
   );
 };
