@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+import Main from "../Components/Main";
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       {/* header section */}
       <Header></Header>
       {/* sidebar + cards */}
+      <Main></Main>
     </div>
   );
 };

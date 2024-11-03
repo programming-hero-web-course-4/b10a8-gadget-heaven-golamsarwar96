@@ -1,0 +1,172 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "iPhone 14",
+        "product_image": "https://i.ibb.co.com/RgL2P3K/i-Phone-14-Blue-PDP-Image-Position-1-A-WWEN-43b0347b-c716-4297-b1d4-a15af53ad270.webp",
+        "category": "phone",
+        "price": 999.99,
+        "description": "The latest iPhone with advanced features and stunning design.",
+        "Specifications": {
+            "screen_size": "6.1 inches",
+            "battery_life": "20 hours",
+            "storage_options": "128GB, 256GB, 512GB",
+            "camera": "12MP dual-camera system",
+            "processor": "A15 Bionic chip"
+        },
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "2",
+        "product_title": "Samsung Galaxy S23",
+        "product_image": "https://i.ibb.co.com/x3bhjvs/images.jpg",
+        "category": "phone",
+        "price": 899.99,
+        "description": "A powerful smartphone with exceptional camera capabilities.",
+        "Specifications": {
+            "screen_size": "6.2 inches",
+            "battery_life": "22 hours",
+            "storage_options": "128GB, 256GB",
+            "camera": "50MP triple camera",
+            "processor": "Snapdragon 8 Gen 2"
+        },
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "3",
+        "product_title": "MacBook Pro 14",
+        "product_image": "https://i.ibb.co.com/LvmbTzJ/Macbook-Pro-M2-Pro-Chipset-14-Space-Gray-1.webp",
+        "category": "laptop",
+        "price": 1999.99,
+        "description": "High-performance laptop for professionals and creatives.",
+        "Specifications": {
+            "screen_size": "14 inches",
+            "processor": "M1 Pro chip",
+            "ram": "16GB",
+            "storage": "512GB SSD",
+            "battery_life": "Up to 17 hours"
+        },
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "4",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/Nxb8z04/Dell-XPS-14-2024-platinum-14th-Gen-Laptop-price-in-Bangldesh-MC-Solution-BD.png",
+        "category": "laptop",
+        "price": 1299.99,
+        "description": "Ultra-thin laptop with stunning display and performance.",
+        "Specifications": {
+            "screen_size": "13.4 inches",
+            "processor": "Intel Core i7",
+            "ram": "16GB",
+            "storage": "1TB SSD",
+            "battery_life": "Up to 12 hours"
+        },
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "5",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://i.ibb.co.com/hFv2rWw/Apple-Watch-Series-8-GPS-Cellular-Midnight-4171.jpg",
+        "category": "smart watch",
+        "price": 399.99,
+        "description": "The ultimate smart watch for health and fitness tracking.",
+        "Specifications": {
+            "display": "Always-On Retina display",
+            "health_features": "ECG, Blood Oxygen",
+            "battery_life": "18 hours",
+            "water_resistance": "50 meters",
+            "materials": "Aluminum, Stainless Steel"
+        },
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "6",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.ibb.co.com/9rdMDsn/Galaxy-Watch5-3-800x800.jpg",
+        "category": "smart watch",
+        "price": 299.99,
+        "description": "Smart watch with comprehensive health and fitness features.",
+        "Specifications": {
+            "display": "Super AMOLED",
+            "health_features": "Body Composition, ECG",
+            "battery_life": "40 hours",
+            "water_resistance": "50 meters",
+            "materials": "Aluminum, Sapphire Crystal"
+        },
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "7",
+        "product_title": "Bose QuietComfort 45",
+        "product_image": "https://i.ibb.co.com/Zg0VKpn/Brothers-Quiet-Comfort-45-1-800x800.jpg",
+        "category": "accessories",
+        "price": 329.99,
+        "description": "Noise-cancelling headphones for an immersive listening experience.",
+        "Specifications": {
+            "battery_life": "24 hours",
+            "weight": "9 oz",
+            "connectivity": "Bluetooth 5.1",
+            "charging_time": "2.5 hours",
+            "noise_cancellation": "Yes"
+        },
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "8",
+        "product_title": "Anker PowerCore 20000mAh",
+        "product_image": "https://i.ibb.co.com/Zg0VKpn/Brothers-Quiet-Comfort-45-1-800x800.jpg",
+        "category": "accessories",
+        "price": 49.99,
+        "description": "High-capacity portable charger for all your devices.",
+        "Specifications": {
+            "capacity": "20000mAh",
+            "output_ports": "3 USB ports",
+            "size": "6.5 x 2.5 x 1 inches",
+            "weight": "12.5 oz",
+            "fast_charging": "Yes"
+        },
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "9",
+        "product_title": "Logitech MX Master 3",
+        "product_image": "https://i.ibb.co.com/cX78pCH/logitech-mx-master-3s-01-500x500.jpg",
+        "category": "accessories",
+        "price": 99.99,
+        "description": "Wireless mouse designed for power users with customizable buttons.",
+        "Specifications": {
+            "connectivity": "Bluetooth and USB receiver",
+            "battery_life": "70 days",
+            "weight": "4.9 oz",
+            "scroll_wheel": "Electromagnetic scrolling",
+            "compatibility": "Windows and Mac"
+        },
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "10",
+        "product_title": "JBL Flip 5",
+        "product_image": "https://i.ibb.co.com/mTRNdwq/JBL-Flip-5-Eco-Edition-600x600.jpg",
+        "category": "accessories",
+        "price": 89.99,
+        "description": "Portable waterproof Bluetooth speaker with powerful sound.",
+        "Specifications": {
+            "battery_life": "12 hours",
+            "water_resistance": "IPX7",
+            "weight": "1.2 lbs",
+            "dimensions": "7.1 x 2.7 x 2.9 inches",
+            "connectivity": "Bluetooth"
+        },
+        "availability": true,
+        "rating": 4.5
+    }
+]
