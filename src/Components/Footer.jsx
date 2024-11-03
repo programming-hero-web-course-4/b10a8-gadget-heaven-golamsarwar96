@@ -3,14 +3,14 @@ const Footer = () => {
     <div>
       <footer className="footer bg-white text-base-content p-10 flex justify-center items-center flex-col">
         <div>
-          <nav>
-            <h6 className="text-4xl font-bold text-center mb-3">
-              Gadget Heaven
-            </h6>
-            <p>Leading the way in cutting-edge technology and innovation.</p>
+          <nav className="text-center">
+            <h6 className="text-4xl font-bold mb-3">Gadget Heaven</h6>
+            <p className="">
+              Leading the way in cutting-edge technology and innovation.
+            </p>
           </nav>
         </div>
-        <div className="flex gap-52">
+        <div className="flex md:gap-52 gap-8">
           <nav className="text-center flex flex-col gap-2">
             <h6 className="text-black text-lg mb-2 font-bold">Services</h6>
             <a className="link link-hover">Product Support</a>
