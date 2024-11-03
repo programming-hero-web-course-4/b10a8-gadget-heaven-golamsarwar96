@@ -5,11 +5,11 @@ const Main = () => {
   const categories = useLoaderData();
   console.log(categories);
   return (
-    <div className="grid grid-cols-4 border-2 gap-10">
-      <div className="grid-cols-1 border rounded-lg">
+    <div className="grid lg:grid-cols-4 gap-10 mt-10">
+      <div className="grid-cols-1 rounded-lg">
         <Sidebar categories={categories}></Sidebar>
       </div>
-      <div className="grid-cols-3 col-span-3 border">
+      <div className="lg:grid-cols-3 lg:col-span-3">
         <Outlet></Outlet>
       </div>
     </div>

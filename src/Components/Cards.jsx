@@ -20,7 +20,7 @@ const Cards = () => {
   }, [category, data]);
 
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid lg:grid-cols-3 md:grid-cols-1 p-4 gap-6 mb-10">
       {gadgets.map((gadget) => (
         <Card key={gadget.id} gadget={gadget}></Card>
       ))}
