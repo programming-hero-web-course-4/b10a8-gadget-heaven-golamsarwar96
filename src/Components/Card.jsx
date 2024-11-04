@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
 const Card = ({ gadget }) => {
-  const { product_image, product_title, price } = gadget;
+  const { product_id, product_image, product_title, price } = gadget;
   return (
     <div className="card bg-base-100 shadow-xl mb-3">
       <figure>
@@ -10,7 +11,9 @@ const Card = ({ gadget }) => {
         <h2 className="card-title text-2xl font-bold">{product_title}</h2>
         <p>Price : ${price}</p>
         <div className="card-actions">
-          <button className="btn btn-primary">Details</button>
+          <NavLink to={`/card/${product_id}`} className="btn btn-primary">
+            Details
+          </NavLink>
         </div>
       </div>
     </div>

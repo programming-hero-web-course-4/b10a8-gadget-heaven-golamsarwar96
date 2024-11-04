@@ -2,7 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "/src/Pages/Home.jsx";
 import Statistics from "/src/Pages/Statistics.jsx";
+import Dashboard from "/src/Pages/Dashboard.jsx";
 import Cards from "../Components/Cards";
+import CardDetails from "../Pages/CardDetails";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +30,15 @@ const routes = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+      },
+      {
+        path: "/card/:product_id",
+        element: <CardDetails></CardDetails>,
+        loader: () => fetch("../gadget.json"),
       },
     ],
   },

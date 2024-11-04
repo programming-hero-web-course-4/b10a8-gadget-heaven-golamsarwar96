@@ -11,7 +11,7 @@ const Sidebar = ({ categories }) => {
               isActive ? " bg-purple-700 text-white " : ""
             } bg-gray-100 text-black`
           }
-          key={category.category}
+          key={category.product_id}
           to={`/category/${category.category}`}
         >
           {category.category}
@@ -22,7 +22,7 @@ const Sidebar = ({ categories }) => {
 };
 
 Sidebar.propTypes = {
-  categories: PropTypes.object,
+  categories: PropTypes.array,
 };
 
 export default Sidebar;

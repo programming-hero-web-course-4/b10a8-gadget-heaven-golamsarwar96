@@ -56,12 +56,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-3">
-          <div className="bg-white text-black p-2 rounded-full">
+          <button className="bg-white text-black p-2 rounded-full">
             <FiShoppingCart />
-          </div>
-          <div className="bg-white text-black p-2 rounded-full">
-            <FaRegHeart />
-          </div>
+          </button>
+          <button className="bg-white text-black p-2 rounded-full">
+            <FaRegHeart />0
+          </button>
         </div>
       </div>
       <Banner></Banner>

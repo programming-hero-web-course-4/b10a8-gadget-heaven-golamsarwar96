@@ -6,13 +6,13 @@
         "category": "phone",
         "price": 999.99,
         "description": "The latest iPhone with advanced features and stunning design.",
-        "Specifications": {
-            "screen_size": "6.1 inches",
-            "battery_life": "20 hours",
-            "storage_options": "128GB, 256GB, 512GB",
-            "camera": "12MP dual-camera system",
-            "processor": "A15 Bionic chip"
-        },
+        "specifications": [
+            "1. Screen Size: 6.1 inches",
+            "2. Battery Life: 20 hours",
+            "3. Storage Options: 128GB, 256GB, 512GB",
+            "4. Camera: 12MP dual-camera system",
+            "5. Processor: A15 Bionic chip"
+        ],
         "availability": true,
         "rating": 4.8
     },
@@ -23,13 +23,13 @@
         "category": "phone",
         "price": 899.99,
         "description": "A powerful smartphone with exceptional camera capabilities.",
-        "Specifications": {
-            "screen_size": "6.2 inches",
-            "battery_life": "22 hours",
-            "storage_options": "128GB, 256GB",
-            "camera": "50MP triple camera",
-            "processor": "Snapdragon 8 Gen 2"
-        },
+        "specifications": [
+            "1. Screen Size: 6.2 inches",
+            "2. Battery Life: 22 hours",
+            "3. Storage Options: 128GB, 256GB",
+            "4. Camera: 50MP triple camera",
+            "5. Processor: Snapdragon 8 Gen 2"
+        ],
         "availability": true,
         "rating": 4.7
     },
@@ -40,13 +40,13 @@
         "category": "laptop",
         "price": 1999.99,
         "description": "High-performance laptop for professionals and creatives.",
-        "Specifications": {
-            "screen_size": "14 inches",
-            "processor": "M1 Pro chip",
-            "ram": "16GB",
-            "storage": "512GB SSD",
-            "battery_life": "Up to 17 hours"
-        },
+        "specifications": [
+            "1. Screen Size: 14 inches",
+            "2. Processor: M1 Pro chip",
+            "3. RAM: 16GB",
+            "4. Storage: 512GB SSD",
+            "5. Battery Life: Up to 17 hours"
+        ],
         "availability": true,
         "rating": 4.9
     },
@@ -57,13 +57,13 @@
         "category": "laptop",
         "price": 1299.99,
         "description": "Ultra-thin laptop with stunning display and performance.",
-        "Specifications": {
-            "screen_size": "13.4 inches",
-            "processor": "Intel Core i7",
-            "ram": "16GB",
-            "storage": "1TB SSD",
-            "battery_life": "Up to 12 hours"
-        },
+        "specifications": [
+            "1. Screen Size: 13.4 inches",
+            "2. Processor: Intel Core i7",
+            "3. RAM: 16GB",
+            "4. Storage: 1TB SSD",
+            "5. Battery Life: Up to 12 hours"
+        ],
         "availability": true,
         "rating": 4.6
     },
@@ -74,13 +74,13 @@
         "category": "smart watch",
         "price": 399.99,
         "description": "The ultimate smart watch for health and fitness tracking.",
-        "Specifications": {
-            "display": "Always-On Retina display",
-            "health_features": "ECG, Blood Oxygen",
-            "battery_life": "18 hours",
-            "water_resistance": "50 meters",
-            "materials": "Aluminum, Stainless Steel"
-        },
+        "specifications": [
+            "1. Display: Always-On Retina display",
+            "2. Health Features: ECG, Blood Oxygen",
+            "3. Battery Life: 18 hours",
+            "4. Water Resistance: 50 meters",
+            "5. Materials: Aluminum, Stainless Steel"
+        ],
         "availability": true,
         "rating": 4.7
     },
@@ -91,13 +91,13 @@
         "category": "smart watch",
         "price": 299.99,
         "description": "Smart watch with comprehensive health and fitness features.",
-        "Specifications": {
-            "display": "Super AMOLED",
-            "health_features": "Body Composition, ECG",
-            "battery_life": "40 hours",
-            "water_resistance": "50 meters",
-            "materials": "Aluminum, Sapphire Crystal"
-        },
+        "specifications": [
+            "1. Display: Super AMOLED",
+            "2. Health Features: Body Composition, ECG",
+            "3. Battery Life: 40 hours",
+            "4. Water Resistance: 50 meters",
+            "5. Materials: Aluminum, Sapphire Crystal"
+        ],
         "availability": true,
         "rating": 4.5
     },
@@ -108,13 +108,13 @@
         "category": "accessories",
         "price": 329.99,
         "description": "Noise-cancelling headphones for an immersive listening experience.",
-        "Specifications": {
-            "battery_life": "24 hours",
-            "weight": "9 oz",
-            "connectivity": "Bluetooth 5.1",
-            "charging_time": "2.5 hours",
-            "noise_cancellation": "Yes"
-        },
+        "specifications": [
+            "1. Battery Life: 24 hours",
+            "2. Weight: 9 oz",
+            "3. Connectivity: Bluetooth 5.1",
+            "4. Charging Time: 2.5 hours",
+            "5. Noise Cancellation: Yes"
+        ],
         "availability": true,
         "rating": 4.8
     },
@@ -125,13 +125,13 @@
         "category": "accessories",
         "price": 60,
         "description": "High-capacity portable charger for all your devices.",
-        "Specifications": {
-            "capacity": "20000mAh",
-            "output_ports": "3 USB ports",
-            "size": "6.5 x 2.5 x 1 inches",
-            "weight": "12.5 oz",
-            "fast_charging": "Yes"
-        },
+        "specifications": [
+            "1. Capacity: 20000mAh",
+            "2. Output Ports: 3 USB ports",
+            "3. Size: 6.5 x 2.5 x 1 inches",
+            "4. Weight: 12.5 oz",
+            "5. Fast Charging: Yes"
+        ],
         "availability": true,
         "rating": 4.7
     },
@@ -142,13 +142,13 @@
         "category": "accessories",
         "price": 99.99,
         "description": "Wireless mouse designed for power users with customizable buttons.",
-        "Specifications": {
-            "connectivity": "Bluetooth and USB receiver",
-            "battery_life": "70 days",
-            "weight": "4.9 oz",
-            "scroll_wheel": "Electromagnetic scrolling",
-            "compatibility": "Windows and Mac"
-        },
+        "specifications": [
+            "1. Connectivity: Bluetooth and USB receiver",
+            "2. Battery Life: 70 days",
+            "3. Weight: 4.9 oz",
+            "4. Scroll Wheel: Electromagnetic scrolling",
+            "5. Compatibility: Windows and Mac"
+        ],
         "availability": true,
         "rating": 4.6
     },
@@ -159,13 +159,13 @@
         "category": "accessories",
         "price": 89.99,
         "description": "Portable waterproof Bluetooth speaker with powerful sound.",
-        "Specifications": {
-            "battery_life": "12 hours",
-            "water_resistance": "IPX7",
-            "weight": "1.2 lbs",
-            "dimensions": "7.1 x 2.7 x 2.9 inches",
-            "connectivity": "Bluetooth"
-        },
+        "specifications": [
+            "1. Battery Life: 12 hours",
+            "2. Water Resistance: IPX7",
+            "3. Weight: 1.2 lbs",
+            "4. Dimensions: 7.1 x 2.7 x 2.9 inches",
+            "5. Connectivity: Bluetooth"
+        ],
         "availability": true,
         "rating": 4.5
     }
