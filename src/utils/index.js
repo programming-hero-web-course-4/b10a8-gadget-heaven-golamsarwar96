@@ -25,4 +25,24 @@ const addFavorite = (card) => {
 
 //remove a coffee from local storage
 
-export { addFavorite, getAllFavorites };
+const getWishlist = () => {
+  const all = localStorage.getItem("wishlist");
+  console.log(all);
+  if (all) {
+    const wishlist = JSON.parse(all);
+    return wishlist;
+  } else {
+    return [];
+  }
+};
+
+const addToWishlist = (card) => {
+  const favorites = getWishlist();
+  const isExist = favorites.find((item) => item.product_id === card.product_id);
+  if (isExist) return toast.error("Already Added To Wishlist");
+
+  favorites.push(card);
+  localStorage.setItem("wishlist", JSON.stringify(favorites));
+  toast.success("Added to wishlist");
+};
+export { addFavorite, getAllFavorites, getWishlist, addToWishlist };

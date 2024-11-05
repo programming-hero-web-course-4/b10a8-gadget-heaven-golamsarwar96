@@ -3,13 +3,14 @@ import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
-import { addFavorite, getAllFavorites } from "../utils";
+import { addFavorite, addToWishlist, getAllFavorites } from "../utils";
 const CardDetails = () => {
   const data = useLoaderData();
   console.log(data);
   const { product_id } = useParams();
   const [card, setCard] = useState({});
   const [isAdded, setIsAdded] = useState(false);
+  const [wishlist, setWishlist] = useState(false);
   useEffect(() => {
     const singleData = data.find((card) => card.product_id == product_id);
     console.log(singleData);
@@ -26,6 +27,11 @@ const CardDetails = () => {
   const handleAddToCart = (card) => {
     addFavorite(card);
     setIsAdded(true);
+  };
+
+  const handleWishlist = (card) => {
+    addToWishlist(card);
+    setWishlist(true);
   };
 
   const { product_image, product_title, price, specifications, rating } = card;
@@ -88,7 +94,11 @@ const CardDetails = () => {
             >
               Add To Cart <FiShoppingCart className="font-bold" />
             </button>
-            <button className="border-2 border-zinc-300 rounded-full p-3 mb-5 mt-1">
+            <button
+              disabled={wishlist}
+              onClick={() => handleWishlist(card)}
+              className="border-2 border-zinc-300 rounded-full p-3 mb-5 mt-1"
+            >
               <FaRegHeart></FaRegHeart>
             </button>
           </div>
