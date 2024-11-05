@@ -3,7 +3,7 @@
         "product_id": "1",
         "product_title": "iPhone 14",
         "product_image": "https://i.ibb.co.com/RgL2P3K/i-Phone-14-Blue-PDP-Image-Position-1-A-WWEN-43b0347b-c716-4297-b1d4-a15af53ad270.webp",
-        "category": "phone",
+        "category": "Phone",
         "price": 999.99,
         "description": "The latest iPhone with advanced features and stunning design.",
         "specifications": [
@@ -20,7 +20,7 @@
         "product_id": "2",
         "product_title": "Samsung Galaxy S23",
         "product_image": "https://i.ibb.co.com/x3bhjvs/images.jpg",
-        "category": "phone",
+        "category": "Phone",
         "price": 899.99,
         "description": "A powerful smartphone with exceptional camera capabilities.",
         "specifications": [
@@ -37,7 +37,7 @@
         "product_id": "3",
         "product_title": "MacBook Pro 14",
         "product_image": "https://i.ibb.co.com/LvmbTzJ/Macbook-Pro-M2-Pro-Chipset-14-Space-Gray-1.webp",
-        "category": "laptop",
+        "category": "Laptop",
         "price": 1999.99,
         "description": "High-performance laptop for professionals and creatives.",
         "specifications": [
@@ -54,7 +54,7 @@
         "product_id": "4",
         "product_title": "Dell XPS 13",
         "product_image": "https://i.ibb.co.com/Nxb8z04/Dell-XPS-14-2024-platinum-14th-Gen-Laptop-price-in-Bangldesh-MC-Solution-BD.png",
-        "category": "laptop",
+        "category": "Laptop",
         "price": 1299.99,
         "description": "Ultra-thin laptop with stunning display and performance.",
         "specifications": [
@@ -71,7 +71,7 @@
         "product_id": "5",
         "product_title": "Apple Watch Series 8",
         "product_image": "https://i.ibb.co.com/hFv2rWw/Apple-Watch-Series-8-GPS-Cellular-Midnight-4171.jpg",
-        "category": "smart watch",
+        "category": "Smart Watch",
         "price": 399.99,
         "description": "The ultimate smart watch for health and fitness tracking.",
         "specifications": [
@@ -88,7 +88,7 @@
         "product_id": "6",
         "product_title": "Samsung Galaxy Watch 5",
         "product_image": "https://i.ibb.co.com/9rdMDsn/Galaxy-Watch5-3-800x800.jpg",
-        "category": "smart watch",
+        "category": "Smart Watch",
         "price": 299.99,
         "description": "Smart watch with comprehensive health and fitness features.",
         "specifications": [
@@ -105,7 +105,7 @@
         "product_id": "7",
         "product_title": "Bose QuietComfort 45",
         "product_image": "https://i.ibb.co.com/Zg0VKpn/Brothers-Quiet-Comfort-45-1-800x800.jpg",
-        "category": "accessories",
+        "category": "Accessories",
         "price": 329.99,
         "description": "Noise-cancelling headphones for an immersive listening experience.",
         "specifications": [
@@ -121,8 +121,8 @@
     {
         "product_id": "8",
         "product_title": "Anker PowerCore 20000mAh",
-        "product_image": "https://i.ibb.co.com/Zg0VKpn/Brothers-Quiet-Comfort-45-1-800x800.jpg",
-        "category": "accessories",
+        "product_image": "https://i.ibb.co.com/6ypG1dg/Anker-A1647-Powercore-20000m-Ah-Black.jpg",
+        "category": "Accessories",
         "price": 60,
         "description": "High-capacity portable charger for all your devices.",
         "specifications": [
@@ -139,7 +139,7 @@
         "product_id": "9",
         "product_title": "Logitech MX Master 3",
         "product_image": "https://i.ibb.co.com/cX78pCH/logitech-mx-master-3s-01-500x500.jpg",
-        "category": "accessories",
+        "category": "Mouse",
         "price": 99.99,
         "description": "Wireless mouse designed for power users with customizable buttons.",
         "specifications": [
@@ -156,7 +156,7 @@
         "product_id": "10",
         "product_title": "JBL Flip 5",
         "product_image": "https://i.ibb.co.com/mTRNdwq/JBL-Flip-5-Eco-Edition-600x600.jpg",
-        "category": "accessories",
+        "category": "Accessories",
         "price": 89.99,
         "description": "Portable waterproof Bluetooth speaker with powerful sound.",
         "specifications": [
@@ -168,5 +168,73 @@
         ],
         "availability": true,
         "rating": 4.5
+    },
+    {
+        "product_id": "11",
+        "product_title": "Google Pixel 7",
+        "product_image": "https://i.ibb.co.com/MSttHfZ/Pixel-7-Obsidian-1130.jpg",
+        "category": "Phone",
+        "price": 599.99,
+        "description": "The latest Google Pixel with exceptional AI-powered features and camera performance.",
+        "specifications": [
+            "1. Screen Size: 6.3 inches",
+            "2. Battery Life: 24 hours",
+            "3. Storage Options: 128GB, 256GB",
+            "4. Camera: 50MP primary camera, 12MP ultra-wide",
+            "5. Processor: Google Tensor G2 chip"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "12",
+        "product_title": "OnePlus 11 5G",
+        "product_image": "https://i.ibb.co.com/kHKfXzj/One-Plus-11-3-4957.jpg",
+        "category": "Phone",
+        "price": 749.99,
+        "description": "The OnePlus 11 delivers flagship performance with a stunning AMOLED display and powerful Snapdragon processor.",
+        "specifications": [
+            "1. Screen Size: 6.7 inches",
+            "2. Battery Life: 22 hours",
+            "3. Storage Options: 128GB, 256GB",
+            "4. Camera: 50MP primary camera, 48MP ultra-wide, 32MP telephoto",
+            "5. Processor: Snapdragon 8 Gen 2"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "13",
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://i.ibb.co.com/dJDCymq/Xiaomi-13-Pro-Ceramic-White-4073.jpg",
+        "category": "Phone",
+        "price": 899.99,
+        "description": "Xiaomi 13 Pro brings cutting-edge technology with Leica-powered cameras and a stunning display.",
+        "specifications": [
+            "1. Screen Size: 6.73 inches",
+            "2. Battery Life: 28 hours",
+            "3. Storage Options: 128GB, 256GB, 512GB",
+            "4. Camera: 50MP Leica main camera, 50MP ultra-wide, 50MP telephoto",
+            "5. Processor: Snapdragon 8 Gen 2"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "14",
+        "product_title": "Oppo Find X6 Pro",
+        "product_image": "https://i.ibb.co.com/3vb7r2c/Oppo-Find-X6-Pro-1.jpg",
+        "category": "Phone",
+        "price": 1049.99,
+        "description": "Oppo Find X6 Pro is a premium flagship offering with advanced camera technology and long-lasting performance.",
+        "specifications": [
+            "1. Screen Size: 6.82 inches",
+            "2. Battery Life: 30 hours",
+            "3. Storage Options: 256GB, 512GB",
+            "4. Camera: 50MP main, 50MP ultra-wide, 50MP telephoto",
+            "5. Processor: Snapdragon 8 Gen 2"
+        ],
+        "availability": true,
+        "rating": 4.8
     }
 ]

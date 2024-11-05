@@ -2,7 +2,6 @@ import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 import { NavLink, useLocation } from "react-router-dom";
 import Banner from "./Banner";
-
 const Navbar = () => {
   const { pathname } = useLocation();
   console.log(pathname);
