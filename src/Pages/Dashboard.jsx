@@ -26,6 +26,12 @@ const Dashboard = () => {
     }
   };
 
+  //Sort
+  const handleSort = () => {
+    const sortedCards = [...cards].sort((a, b) => b.price - a.price);
+    setCards(sortedCards);
+  };
+
   useEffect(() => {
     const wishlist = getWishlist();
     setWishlist(wishlist);
@@ -35,6 +41,7 @@ const Dashboard = () => {
     const favorites = getAllFavorites();
     setCards(favorites);
   }, []);
+
   return (
     <div>
       <div className="bg-purple-600 text-white min-h-[250px]">
@@ -72,7 +79,20 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-
+      <div className="flex justify-between mt-6 px-52">
+        <h1 className="font-bold text-2xl">Cart</h1>
+        <div className="flex gap-3">
+          <button
+            onClick={handleSort}
+            className="btn px-5 py-2 rounded-3xl bg-white border-purple-600"
+          >
+            Sort by price
+          </button>
+          <button className="bg-purple-600 text-white rounded-3xl px-5 py-2 btn">
+            Purchase
+          </button>
+        </div>
+      </div>
       {isActive.available ? (
         <div className="flex flex-col gap-10 px-52 py-10">
           {cards.map((card) => (
