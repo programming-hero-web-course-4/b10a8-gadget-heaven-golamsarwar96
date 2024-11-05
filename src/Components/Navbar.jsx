@@ -1,6 +1,6 @@
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Banner from "./Banner";
 
 const Navbar = () => {
@@ -37,30 +37,108 @@ const Navbar = () => {
                   tabIndex={0}
                   className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
                 >
-                  <Link to="/">
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-white text-purple-600 px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/"
+                  >
                     <a>Home</a>
-                  </Link>
-                  <Link to="/statistics">
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/statistics"
+                  >
                     <a>Statistics</a>
-                  </Link>
-                  <Link to="/dashboard">
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/dashboard"
+                  >
                     <a>Dashboard</a>
-                  </Link>
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/latestrelease"
+                  >
+                    <a>Latest Release</a>
+                  </NavLink>
                 </ul>
               </div>
               <a className="text-xl font-bold">Gadget Heaven</a>
             </div>
             <div className="navbar-center hidden lg:flex gap-2">
-              <ul className="flex gap-8 font-semibold">
-                <Link to="/">
+              <ul className="flex items-center gap-8 font-semibold">
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-white text-purple-600 px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/"
+                >
                   <a>Home</a>
-                </Link>
-                <Link to="/statistics">
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/statistics"
+                >
                   <a>Statistics</a>
-                </Link>
-                <Link to="/dashboard">
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/dashboard"
+                >
                   <a>Dashboard</a>
-                </Link>
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/latestrelease"
+                >
+                  <a>Latest Release</a>
+                </NavLink>
               </ul>
             </div>
             <div className="navbar-end flex gap-3">
@@ -103,30 +181,108 @@ const Navbar = () => {
                   tabIndex={0}
                   className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
                 >
-                  <Link to="/">
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-white text-purple-600 px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/"
+                  >
                     <a>Home</a>
-                  </Link>
-                  <Link to="/statistics">
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/statistics"
+                  >
                     <a>Statistics</a>
-                  </Link>
-                  <Link to="/dashboard">
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/dashboard"
+                  >
                     <a>Dashboard</a>
-                  </Link>
+                  </NavLink>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                          : ""
+                      }`
+                    }
+                    to="/latestrelease"
+                  >
+                    <a>Latest Release</a>
+                  </NavLink>
                 </ul>
               </div>
               <a className="text-xl font-bold">Gadget Heaven</a>
             </div>
             <div className="navbar-center hidden lg:flex gap-2">
-              <ul className="flex gap-8 font-semibold">
-                <Link to="/">
+              <ul className="flex items-center gap-8 font-semibold">
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-white text-purple-600 px-5 py-2 rounded-2xl"
+                        : ""
+                    }`
+                  }
+                  to="/"
+                >
                   <a>Home</a>
-                </Link>
-                <Link to="/statistics">
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/statistics"
+                >
                   <a>Statistics</a>
-                </Link>
-                <Link to="/dashboard">
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/dashboard"
+                >
                   <a>Dashboard</a>
-                </Link>
+                </NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? " bg-purple-600 text-white px-5 py-2 rounded-2xl "
+                        : ""
+                    }`
+                  }
+                  to="/latestrelease"
+                >
+                  <a>Latest Release</a>
+                </NavLink>
               </ul>
             </div>
             <div className="navbar-end flex gap-3">

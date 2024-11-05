@@ -3,6 +3,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "/src/Pages/Home.jsx";
 import Statistics from "/src/Pages/Statistics.jsx";
 import Dashboard from "/src/Pages/Dashboard.jsx";
+import LatestRelease from "/src/Pages/LatestRelease.jsx";
 import Cards from "../Components/Cards";
 import CardDetails from "../Pages/CardDetails";
 const routes = createBrowserRouter([
@@ -34,6 +35,10 @@ const routes = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+      },
+      {
+        path: "/latestrelease",
+        element: <LatestRelease></LatestRelease>,
       },
       {
         path: "/card/:product_id",
