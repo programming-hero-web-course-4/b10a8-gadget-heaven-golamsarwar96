@@ -35,7 +35,8 @@ const CardDetails = () => {
     setWishlist(true);
   };
 
-  const { product_image, product_title, price, specifications, rating } = card;
+  const { product_image, product_title, price, specifications, rating } =
+    card || {};
   console.log(specifications);
   return (
     <div className="relative">

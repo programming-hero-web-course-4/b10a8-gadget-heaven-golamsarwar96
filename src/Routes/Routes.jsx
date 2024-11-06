@@ -6,10 +6,12 @@ import Dashboard from "/src/Pages/Dashboard.jsx";
 import LatestRelease from "/src/Pages/LatestRelease.jsx";
 import Cards from "../Components/Cards";
 import CardDetails from "../Pages/CardDetails";
+import ErrorPage from "../Components/ErrorPage";
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 const AddToCart = ({ card }) => {
-  const { product_image, product_title, price, description } = card;
+  const { product_image, product_title, price, description } = card || {};
   return (
     <div className="flex items-center bg-white p-5 gap-8">
       <div>

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 const Wishlist = ({ wishlist }) => {
-  const { product_image, product_title, price, description } = wishlist;
+  const { product_image, product_title, price, description } = wishlist || {};
   return (
     <div className="flex items-center bg-white p-5 gap-8">
       <div>
