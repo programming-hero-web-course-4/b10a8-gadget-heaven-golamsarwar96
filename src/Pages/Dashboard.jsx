@@ -3,14 +3,17 @@ import { useState } from "react";
 import { getAllFavorites, getWishlist } from "../utils";
 import AddToCart from "../Components/AddToCart";
 import Wishlist from "../Components/Wishlist";
+import { MdOutlineCelebration } from "react-icons/md";
+
 const Dashboard = () => {
   const [cards, setCards] = useState([]);
   const [wishlists, setWishlist] = useState([]);
-
   const [isActive, setIsActive] = useState({
     available: "true",
     status: "Available",
   });
+
+  console.log(cards);
 
   const handleAvailableBtn = (status) => {
     if (status === "available") {
@@ -79,22 +82,49 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between mt-6 px-52">
-        <h1 className="font-bold text-2xl">Cart</h1>
-        <div className="flex gap-3">
+      <div className="flex justify-between flex-col md:flex-row mt-6 md:px-52">
+        <h1 className="font-bold text-2xl text-center">Cart</h1>
+        <div className="flex flex-col md:flex-row gap-3 items-center">
+          <p>Total:</p>
           <button
             onClick={handleSort}
             className="btn px-5 py-2 rounded-3xl bg-white border-purple-600"
           >
             Sort by price
           </button>
-          <button className="bg-purple-600 text-white rounded-3xl px-5 py-2 btn">
+          {/* Open the modal using document.getElementById('ID').showModal() method */}
+          <button
+            className="btn bg-purple-600 text-white rounded-3xl px-5 py-2"
+            onClick={() => document.getElementById("my_modal_1").showModal()}
+          >
             Purchase
           </button>
+          <dialog id="my_modal_1" className="modal">
+            <div className="modal-box">
+              <div className="flex justify-center ">
+                <MdOutlineCelebration className="text-5xl" />
+              </div>
+
+              <h3 className="font-bold text-purple-600 text-4xl text-center mt-3">
+                Congratulations
+              </h3>
+              <p className="py-4 text-black text-center">
+                You Have Bought The Products
+              </p>
+              <div className="flex justify-center">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn bg-purple-600 text-white">
+                    Close
+                  </button>
+                </form>
+              </div>
+            </div>
+          </dialog>
         </div>
       </div>
       {isActive.available ? (
-        <div className="flex flex-col gap-10 px-52 py-10">
+        <div className="flex flex-col gap-10 md:px-52 py-10">
           {cards.map((card) => (
             <AddToCart key={card.id} card={card}></AddToCart>
           ))}

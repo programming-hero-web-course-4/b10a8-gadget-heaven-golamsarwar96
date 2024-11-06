@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
@@ -38,9 +39,9 @@ const CardDetails = () => {
   console.log(specifications);
   return (
     <div className="relative">
-      <div className="bg-purple-600 text-white relative min-h-[250px] mb-32 md:mb-64 lg:mb-[450px]">
+      <div className="bg-purple-600 text-white relative min-h-[250px] mb-10 md:mb-64 lg:mb-[450px]">
         <div className="text-center">
-          <div className="">
+          <div className="flex flex-col justify-center md:justify-start">
             <h1 className="lg:text-xl md:text-2xl pt-5 text-xl font-extrabold">
               Product Details
             </h1>
@@ -50,7 +51,7 @@ const CardDetails = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-white rounded-3xl h-[350px] mb-20 items-center justify-center absolute top-24 left-96">
+      <div className="flex bg-white rounded-3xl lg:h-[350px] mb-20 items-center justify-center flex-col md:flex-row md:absolute md:top-24 md:left-96">
         <div>
           <img className="w-[250px]" src={product_image} alt="" />
         </div>
@@ -58,7 +59,7 @@ const CardDetails = () => {
           <h1 className="text-xl font-bold mt-3">{product_title}</h1>
           <p className="text-sm font-semibold text-zinc-800">Price: ${price}</p>
 
-          <p className="text-zinc-500 text-xs">{card.description}</p>
+          <p className="text-zinc-500 text-xs w-3/4">{card.description}</p>
           <div>
             <h1 className="font-bold">
               Specification : <br />
@@ -80,7 +81,7 @@ const CardDetails = () => {
                 count={5}
                 value={rating}
                 size={24}
-                color="#ffe800"
+                color="#dddd"
                 activeColor="#ffd700"
               />
               <span>{rating}</span>
@@ -88,7 +89,6 @@ const CardDetails = () => {
           </div>
           <div className="flex gap-5 items-center">
             <button
-              disabled={isAdded}
               onClick={() => handleAddToCart(card)}
               className="btn px-4 bg-purple-600 text-white rounded-3xl mb-5 mt-1"
             >
