@@ -1,8 +1,24 @@
-# React + Vite
+# LIVE LINK : 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requirement Document 🔗
 
-Currently, two official plugins are available:
+## React Concepts Used : ✔️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• useState<br/>
+• useEffect<br/>
+• useNavigate<br/>
+• useLocation<br/>
+• React Router<br/>
+• React Toastify <br/>
+• React Icons<br/>
+• NavLink/Link
+
+## 5 Features of this project :
+
+1. Dynamic Navigation Bar <br/>
+2. A sidebar to traverse through all the categories. <br/>
+3. A details button that shows all the details for a specific gadget. <br/>
+4. Add to Cart/Wishlist button that adds the gadget to the dashboard/wishlist page.
+5. Sort button that sorts product according to price in descending order.
+
+## I have used local storage for this project

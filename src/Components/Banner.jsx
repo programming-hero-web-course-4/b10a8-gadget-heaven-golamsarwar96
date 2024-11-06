@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import bannerImg from "/assets/banner.jpg";
 const Banner = () => {
   const navigate = useNavigate();
   return (
@@ -23,11 +23,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="absolute lg:left-52 md:left mt-5 border-2 p-5 rounded-3xl">
-        <img
-          className="lg:h-[563px] rounded-3xl"
-          src="/assets/banner.jpg"
-          alt=""
-        />
+        <img className="lg:h-[563px] rounded-3xl" src={bannerImg} alt="" />
       </div>
     </div>
   );

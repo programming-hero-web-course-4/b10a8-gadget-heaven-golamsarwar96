@@ -47,6 +47,10 @@ const routes = createBrowserRouter([
         element: <CardDetails></CardDetails>,
         loader: () => fetch("../gadget.json"),
       },
+      {
+        path: "*",
+        element: <Home />,
+      },
     ],
   },
 ]);

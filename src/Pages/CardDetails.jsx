@@ -27,6 +27,7 @@ const CardDetails = () => {
 
   const handleAddToCart = (card) => {
     addFavorite(card);
+    const productPrice = getAllFavorites();
     setIsAdded(true);
   };
 

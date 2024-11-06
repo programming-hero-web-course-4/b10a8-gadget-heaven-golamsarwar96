@@ -4,8 +4,10 @@ import { getAllFavorites, getWishlist } from "../utils";
 import AddToCart from "../Components/AddToCart";
 import Wishlist from "../Components/Wishlist";
 import { MdOutlineCelebration } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [cards, setCards] = useState([]);
   const [wishlists, setWishlist] = useState([]);
   const [isActive, setIsActive] = useState({
@@ -114,7 +116,10 @@ const Dashboard = () => {
               <div className="flex justify-center">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
-                  <button className="btn bg-purple-600 text-white">
+                  <button
+                    onClick={() => navigate("/")}
+                    className="btn bg-purple-600 text-white"
+                  >
                     Close
                   </button>
                 </form>
