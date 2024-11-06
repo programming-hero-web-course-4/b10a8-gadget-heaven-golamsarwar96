@@ -1,11 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import Newsletter from "../Components/Newsletter";
 import Slider from "../Components/Slider";
+import { Helmet } from "react-helmet";
 
 const LatestRelease = () => {
   const navigate = useNavigate();
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven - Latest Release</title>
+      </Helmet>
       <div className="bg-purple-600 text-white min-h-[250px]">
         <div className="text-center">
           <div className="">

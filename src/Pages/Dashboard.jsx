@@ -5,6 +5,7 @@ import AddToCart from "../Components/AddToCart";
 import Wishlist from "../Components/Wishlist";
 import { MdOutlineCelebration } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -49,6 +50,9 @@ const Dashboard = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven - Dashboard</title>
+      </Helmet>
       <div className="bg-purple-600 text-white min-h-[250px]">
         <div className="text-center">
           <div className="">

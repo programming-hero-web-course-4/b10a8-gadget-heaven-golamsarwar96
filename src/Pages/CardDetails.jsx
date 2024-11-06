@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
-import { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 import { addFavorite, addToWishlist, getAllFavorites } from "../utils";
+
 const CardDetails = () => {
   const data = useLoaderData();
   console.log(data);
@@ -12,6 +13,7 @@ const CardDetails = () => {
   const [card, setCard] = useState({});
   const [isAdded, setIsAdded] = useState(false);
   const [wishlist, setWishlist] = useState(false);
+  const [total, setTotal] = useState(0);
   useEffect(() => {
     const singleData = data.find((card) => card.product_id == product_id);
     console.log(singleData);
@@ -27,7 +29,10 @@ const CardDetails = () => {
 
   const handleAddToCart = (card) => {
     addFavorite(card);
-    const productPrice = getAllFavorites();
+    let productPrice = 0;
+    productPrice = card.price + total;
+    setTotal(productPrice);
+    console.log(productPrice);
     setIsAdded(true);
   };
 

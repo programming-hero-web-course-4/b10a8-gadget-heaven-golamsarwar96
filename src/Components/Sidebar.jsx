@@ -22,7 +22,7 @@ const Sidebar = ({ categories }) => {
 };
 
 Sidebar.propTypes = {
-  categories: PropTypes.array,
+  categories: PropTypes.array.isRequired,
 };
 
 export default Sidebar;
