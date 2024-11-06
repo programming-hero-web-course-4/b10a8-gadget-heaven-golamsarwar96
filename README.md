@@ -1,6 +1,10 @@
 # LIVE LINK : 🌐
 
+https://tricky-chalk.surge.sh/
+
 ## Requirement Document 🔗
+
+Link : https://b10a8.tiiny.site/
 
 ## React Concepts Used : ✔️
 
